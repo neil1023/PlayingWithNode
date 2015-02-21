@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>{{ text }}</p>
-  </body>
+<head>
+	<title>{{ title }}</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/stylesheets/style_particles.css" />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script type='text/javascript' src='/javascripts/jquery-1.11.1.min.js'></script>
+	<script type='text/javascript' src='/javascripts/jquery.particleground.min.js'></script>
+	<script type='text/javascript' src='/javascripts/demo.js'></script>
+</head>
+<body>
+   <!--  <h1>{{ title }} 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥</h1>
+   <p>{{ text }}</p> -->
+   <div id="particles">
+   	<div class="intro">
+   		<h1>Neil Patel</h1>
+   		<p>Hello.</p>
+   		<!--<a href="https://github.com/jnicol/particleground/archive/master.zip" class="btn">Download</a>-->
+   	</div>
+   </div>
+</body>
 </html>
