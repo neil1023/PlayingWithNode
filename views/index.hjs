@@ -13,12 +13,11 @@
 	<script type='text/javascript' src='/javascripts/demo.js'></script>
 </head>
 <body>
-   <!--  <h1>{{ title }} 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥</h1>
-   <p>{{ text }}</p> -->
+
    <div id="particles">
    	<div class="intro">
-   		<h1>Neil Patel</h1>
-   		<p>Hello.</p>
+   		<h1>{{ title }}</h1>
+   		<p>{{ text }}</p>
    		<!--<a href="https://github.com/jnicol/particleground/archive/master.zip" class="btn">Download</a>-->
    	</div>
    </div>

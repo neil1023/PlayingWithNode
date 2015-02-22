@@ -1,6 +1,6 @@
 var plan = require('flightplan');
 
-var appName = 'exp2014';
+var appName = 'playingWithNode';
 var username = 'deploy';
 var startFile = 'bin/www';
 
