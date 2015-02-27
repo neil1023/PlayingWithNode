@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hi</title>
+	<link rel="shortcut icon" type="/image/png" href="/images/profile.png" />
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='/stylesheets/signup.css' />
+</head>
+<body>
+	<div class="box">
+		<h1>Sign up</h1>
+		<form method="post" action="/signup">
+			<label name="username_label" value="username">Username</label><br>
+			<input type="text" name="username" placeholder="username" autofocus="true"><br>
+
+			<label name="password_label" value="password">Password</label><br>
+			<input type="password" name="password" placeholder="password"><br>
+
+			<label name="confirm_password_label">Confirm your password</label><br>
+			<input type="password" name="password2" placeholder="re-type password"><br>
+
+			<input type="submit" name="submit" value="SUBMIT" id="submit">
+		</form>
+	</div>
+</body>
+</html>

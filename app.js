@@ -26,6 +26,19 @@ console.log('Thanks to Nodemon, the app has been rebooted. Pretty sweet!')
 app.use('/', routes);
 // app.use('/users', users);
 
+
+app.post('/signup', function(req, response){
+
+    console.log(req.body.username);
+    console.log(req.body.password);
+    console.log(req.body.password2);
+    if(req.body.password != req.body.password2){
+        response.send('Passwords do not match');
+    }
+    response.send('Hello ' + req.body.username + '!');
+
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
@@ -46,6 +59,7 @@ if (app.get('env') === 'development') {
         });
     });
 }
+
 
 // production error handler
 // no stacktraces leaked to user

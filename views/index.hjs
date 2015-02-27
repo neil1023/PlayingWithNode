@@ -13,13 +13,16 @@
 	<script type='text/javascript' src='/javascripts/demo.js'></script>
 </head>
 <body>
+	<div class="nav">
+		<a href="#" id="login">Log in</a>
+		<a href="/signup" class="btn">SIGN UP</a>
+	</div>
+	<div id="particles">
+		<div class="intro">
+			<h1>{{ title }}</h1>
+			<p>{{ text }}</p>
 
-   <div id="particles">
-   	<div class="intro">
-   		<h1>{{ title }}</h1>
-   		<p>{{ text }}</p>
-   		<!--<a href="https://github.com/jnicol/particleground/archive/master.zip" class="btn">Download</a>-->
-   	</div>
-   </div>
+		</div>
+	</div>
 </body>
 </html>

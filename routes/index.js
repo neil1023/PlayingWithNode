@@ -14,4 +14,10 @@ router.get('/', function(req, res){ //req = request, res = response
 
 });
 
+router.get('/signup', function(req, res){
+	res.render('signup', {
+		title: 'SIGN UP'
+	});
+});
+
 module.exports = router;
