@@ -29,7 +29,7 @@
 			<path fill="none" stroke="#414042" stroke-width="100" stroke-miterlimit="10" d="M1635.666,1457.75L1839,304.417
 			c-870-423.333-1688.802,8.966-1688.802,8.966L411.03,1456.717c0,0,304.637-125.634,612.97-125.634
 			S1635.666,1457.75,1635.666,1457.75z"/>
-			<text transform="matrix(1 0 0 1 461.4375 534.4653)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DOCK11-Heavy'" font-size="239.124">PLAYING</tspan><tspan x="223.699" y="286.949" fill="#FFFFFF" font-family="'DOCK11-Heavy'" font-size="239.124">WITH</tspan><tspan x="200.503" y="573.898" fill="#FFFFFF" font-family="'DOCK11-Heavy'" font-size="239.124">NODE</tspan></text></svg>
+			<text transform="matrix(1 0 0 1 461.4375 534.4653)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'DOCK11-Heavy','Montserrat'" font-size="239.124">PLAYING</tspan><tspan x="223.699" y="286.949" fill="#FFFFFF" font-family="'DOCK11-Heavy','Montserrat'" font-size="239.124">WITH</tspan><tspan x="200.503" y="573.898" fill="#FFFFFF" font-family="'DOCK11-Heavy','Montserrat'" font-size="239.124">NODE</tspan></text></svg>
 
 		</div>
 		<div class="user_login">
