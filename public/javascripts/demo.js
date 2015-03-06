@@ -4,6 +4,7 @@
  */
 
 $(document).ready(function() {
+	var $body = $('body');
   $('#particles').particleground({
     dotColor: '#fff',
     lineColor: '#fff'
